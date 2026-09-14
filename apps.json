@@ -1,5 +1,15 @@
 {
   "name": "SideloadTW",
   "identifier": "com.sideloadtw.source",
-  "apps": []
+  "apps": [
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Samara",
+      "version": "1.2.1",
+      "downloadURL": "https://github.com/khcrysalis/Feather/releases/latest/download/Feather.ipa",
+      "localizedDescription": "免費且強大的 iOS 設備端證書簽名與側載工具。",
+      "iconURL": "https://raw.githubusercontent.com/khcrysalis/Feather/main/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png"
+    }
+  ]
 }
