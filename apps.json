@@ -1,7 +1,6 @@
 {
   "name": "SideloadTW",
   "identifier": "com.sideloadtw.source",
-  "subtitle": "精選 iOS 側載應用軟體源",
   "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6855.jpeg",
   "website": "https://github.com/sideloadtw/sideload-repo",
   "apps": [
@@ -18,6 +17,12 @@
       "tintColor": "848ef9",
       "localizedDescription": "Feather is a free on-device iOS application manager/installer built with UIKit for quality.",
       "appPermissions": {},
+      "screenshotURLs": [
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Library.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Repos.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Sign.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Store.png?raw=true"
+      ],
       "versions": [
         {
           "version": "2.9.0",
@@ -30,22 +35,72 @@
     {
       "name": "Glow for Facebook",
       "bundleIdentifier": "com.facebook.Facebook",
-      "developerName": "dvntm0",
-      "subtitle": "Facebook Tweak",
-      "version": "1.3.1",
-      "versionDate": "2026-09-01T00:00:00Z",
-      "size": 161200000,
-      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v1.3.1-b1.4.1/Glow_v1.3.1-b1.4.1.ipa",
+      "developerName": "dvntm",
+      "subtitle": "Cleaner. Smarter. Yours.",
+      "version": "519.0.0",
+      "versionDate": "2025-06-25T18:00:00+03:00",
+      "size": 170243561,
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3.1+519.0.ipa",
       "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6926.png",
-      "tintColor": "1877F2",
-      "localizedDescription": "Facebook 增強插件 Glow，提供阻擋動態廣告、下載高畫質影片、自訂介面標籤頁及提升整體瀏覽流暢度。",
-      "appPermissions": {},
+      "tintColor": "B5DAFC",
+      "localizedDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot6.jpg"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.accounts.facebook.defaultaccess",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.HotspotConfiguration",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSSiriUsageDescription": "This will let Siri help you look for photos on Facebook",
+          "NSCameraUsageDescription": "Facebook uses access to your camera to do things like help you take and share photos, record videos, and use visual effects.\n\nYou can always change this in your device settings.",
+          "NSUserTrackingUsageDescription": "This allows Facebook to provide you with a better ads experience.",
+          "NSBluetoothPeripheralUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSLocalNetworkUsageDescription": "Facebook uses your local network so you can do things like find and connect to devices and cast videos to TV.",
+          "NSMotionUsageDescription": "Facebook uses this to provide more relevant and personalized experiences.",
+          "NSPhotoLibraryAddUsageDescription": "Facebook uses access to your photos to do things like help you save images to your device, share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
+          "NSAppleMusicUsageDescription": "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
+          "NSCalendarsUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSMicrophoneUsageDescription": "Facebook uses access to your microphone to do things like help you record audio, identify songs, search with your voice and use audio effects.\n\nYou can always change this in your device settings.",
+          "NSLocationWhenInUseUsageDescription": "Facebook uses this to provide more relevant and personalized experiences, like helping you check-in, find local events and get better ads.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Facebook.",
+          "NSCalendarsFullAccessUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+          "NSPhotoLibraryUsageDescription": "Facebook uses access to your photos to do things like help you share and apply visual effects to your photos and videos, and to suggest photos and videos to share."
+        }
+      },
       "versions": [
         {
-          "version": "1.3.1",
-          "date": "2026-09-01T00:00:00Z",
-          "size": 161200000,
-          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v1.3.1-b1.4.1/Glow_v1.3.1-b1.4.1.ipa"
+          "version": "519.0.0",
+          "minOSVersion": "15.1",
+          "date": "2025-06-25T18:00:00+03:00",
+          "size": 170243561,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3.1+519.0.ipa",
+          "localizedDescription": "Glow v1.3.1\n- Faster video re-encoding by improved audio processing\n- Added support for Turkish language"
         }
       ]
     },
@@ -55,7 +110,7 @@
       "developerName": "Ryuk",
       "subtitle": "Instagram Tweak",
       "version": "1.4.0",
-      "versionDate": "2026-09-01T00:00:00Z",
+      "versionDate": "2026-07-05T02:11:53Z",
       "size": 184549376,
       "downloadURL": "https://source.ryuksign.com/ipas/RyukGram_1.4.0_IG446.0.0.ipa",
       "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6928.png",
@@ -65,7 +120,7 @@
       "versions": [
         {
           "version": "1.4.0",
-          "date": "2026-09-01T00:00:00Z",
+          "date": "2026-07-05T02:11:53Z",
           "size": 184549376,
           "downloadURL": "https://source.ryuksign.com/ipas/RyukGram_1.4.0_IG446.0.0.ipa"
         }
