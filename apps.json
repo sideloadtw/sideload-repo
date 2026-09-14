@@ -6,20 +6,10 @@
       "name": "Feather",
       "bundleIdentifier": "thewonderofyou.Feather",
       "developerName": "Samara",
-      "subtitle": "On-device signing application",
       "version": "2.9.0",
-      "versionDate": "2026-07-05T02:11:53Z",
-      "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
-      "localizedDescription": "免費且強大的 iOS 設備端證書簽名與側載工具，完全無需電腦支援。",
-      "iconURL": "https://github.com/khcrysalis/Feather/blob/v1.x/iOS/Resources/Icons/Main/Mac@3x.png?raw=true",
-      "tintColor": "848ef9",
-      "size": 12598584,
-      "screenshotURLs": [
-        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Library.png?raw=true",
-        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Repos.png?raw=true",
-        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Sign.png?raw=true",
-        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Store.png?raw=true"
-      ]
+      "downloadURL": "https://github.com/sideloadtw/sideload-apps/releases/download/v2.9.0/Feather.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6913.png",
+      "localizedDescription": "免費且強大的 iOS 設備端證書簽名與側載工具。"
     }
   ]
 }
