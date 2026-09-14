@@ -29,13 +29,14 @@
     {
       "name": "RyukGram",
       "bundleIdentifier": "com.burbn.instagram",
-      "developerName": "SideloadTW",
+      "developerName": "Ryuk",
+      "subtitle": "Instagram Tweak",
       "version": "1.4.0",
       "versionDate": "2026-09-01T00:00:00Z",
-      "size": 150000000,
-      "downloadURL": "https://github.com/sideloadtw/sideload-apps/releases/download/v1.4.0/RyukGram_1.4.0_IG446.0.0.ipa",
-      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6928.png",
-      "localizedDescription": "Instagram 增強版（基於 IG v446.0.0），支援去廣告與媒體下載。"
+      "size": 184549376,
+      "downloadURL": "https://source.ryuksign.com/ipas/RyukGram_1.4.0_IG446.0.0.ipa",
+      "iconURL": "https://source.ryuksign.com/icons/ryukgram.png",
+      "localizedDescription": "Instagram 增強版（基於 IG v446.0.0），支援去廣告、背景播放、無痕觀看與高畫質媒體下載。"
     }
   ]
 }
