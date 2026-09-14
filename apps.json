@@ -142,21 +142,11 @@
           "buildVersion": "1060018354",
           "date": "2026-09-09T00:00:00Z",
           "downloadURL": "https://source.ryuksign.com/ipas/860f89d45a5481efd30b.ipa",
-          "localizedDescription": "Updated for Instagram 446.0.0.\n\n### ✨ Highlights\n- Setting profiles\n- MobileConfig browser\n- Story stats\n- Custom fonts\n- Full-resolution photos\n- Post and Reel buttons\n- View-once media while closed\n- Update checker",
+          "localizedDescription": "Updated for Instagram 446.0.0.",
           "minOSVersion": "15.0",
           "sha256": "c08e27efd9ec4a6e16828557b369b5c5aa555f2ba1fe931c21803fedb9523836",
           "size": 333670703,
           "version": "446.0.0"
-        },
-        {
-          "buildVersion": "1021301964",
-          "date": "2026-07-25T00:00:00Z",
-          "downloadURL": "https://source.ryuksign.com/ipas/aa587d7e5491c54fee9d.ipa",
-          "localizedDescription": "Updated for Instagram 439.0.0.",
-          "minOSVersion": "15.0",
-          "sha256": "e5c9e392c399cd19f4220b27770724acd5aac55121962d4c9b36464b63c8acd0",
-          "size": 333529723,
-          "version": "439.0.0"
         }
       ]
     }
