@@ -1,6 +1,7 @@
 {
   "name": "SideloadTW",
   "identifier": "com.sideloadtw.source",
+  "subtitle": "精選 iOS 側載應用軟體源",
   "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6855.jpeg",
   "website": "https://github.com/sideloadtw/sideload-repo",
   "apps": [
@@ -107,22 +108,55 @@
     {
       "name": "RyukGram",
       "bundleIdentifier": "com.burbn.instagram",
+      "category": "social",
       "developerName": "Ryuk",
-      "subtitle": "Instagram Tweak",
-      "version": "1.4.0",
-      "versionDate": "2026-07-05T02:11:53Z",
-      "size": 184549376,
-      "downloadURL": "https://source.ryuksign.com/ipas/RyukGram_1.4.0_IG446.0.0.ipa",
+      "subtitle": "Instagram, supercharged with RyukGram · by @axryuk · RyukGram v1.4.0",
+      "version": "446.0.0",
+      "versionDate": "2026-09-09T00:00:00Z",
+      "size": 333670703,
+      "downloadURL": "https://source.ryuksign.com/ipas/860f89d45a5481efd30b.ipa",
       "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6928.png",
       "tintColor": "E1306C",
-      "localizedDescription": "Instagram 增強版（基於 IG v446.0.0），支援去廣告、背景播放、無痕觀看限時動態與高畫質媒體原檔下載。",
-      "appPermissions": {},
+      "localizedDescription": "RyukGram is an enhanced Instagram client for iOS — the full Instagram app with a built-in suite of privacy, logging and customization tweaks. Highlights: follow-request tracking, read receipts, story-viewer insights, deleted-message logs, device-ID masking, media downloading, custom chat themes and a configurable tab bar. Everything runs on-device.",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
+          "NSMicrophoneUsageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
+          "NSPhotoLibraryUsageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+          "NSContactsUsageDescription": "Instagram will use your contacts to suggest people and things you care about, and offer a better service.",
+          "NSLocationWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Instagram.",
+          "NSCalendarsUsageDescription": "This will let Instagram sync events to your calendar.",
+          "NSBluetoothAlwaysUsageDescription": "This allows your phone to find and connect to devices using a Bluetooth connection.",
+          "NSLocalNetworkUsageDescription": "Used to discover and connect to compatible streaming devices on your Wi-Fi network.",
+          "NSFocusStatusUsageDescription": "This allows Instagram to check whether you've been missing notifications from friends.",
+          "NSUserTrackingUsageDescription": "This helps Instagram personalize ads we show you."
+        }
+      },
+      "screenshotURLs": [],
       "versions": [
         {
-          "version": "1.4.0",
-          "date": "2026-07-05T02:11:53Z",
-          "size": 184549376,
-          "downloadURL": "https://source.ryuksign.com/ipas/RyukGram_1.4.0_IG446.0.0.ipa"
+          "buildVersion": "1060018354",
+          "date": "2026-09-09T00:00:00Z",
+          "downloadURL": "https://source.ryuksign.com/ipas/860f89d45a5481efd30b.ipa",
+          "localizedDescription": "Updated for Instagram 446.0.0.\n\n### ✨ Highlights\n- Setting profiles\n- MobileConfig browser\n- Story stats\n- Custom fonts\n- Full-resolution photos\n- Post and Reel buttons\n- View-once media while closed\n- Update checker",
+          "minOSVersion": "15.0",
+          "sha256": "c08e27efd9ec4a6e16828557b369b5c5aa555f2ba1fe931c21803fedb9523836",
+          "size": 333670703,
+          "version": "446.0.0"
+        },
+        {
+          "buildVersion": "1021301964",
+          "date": "2026-07-25T00:00:00Z",
+          "downloadURL": "https://source.ryuksign.com/ipas/aa587d7e5491c54fee9d.ipa",
+          "localizedDescription": "Updated for Instagram 439.0.0.",
+          "minOSVersion": "15.0",
+          "sha256": "e5c9e392c399cd19f4220b27770724acd5aac55121962d4c9b36464b63c8acd0",
+          "size": 333529723,
+          "version": "439.0.0"
         }
       ]
     }
