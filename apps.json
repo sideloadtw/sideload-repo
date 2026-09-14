@@ -1,15 +1,35 @@
 {
   "name": "SideloadTW",
   "identifier": "com.sideloadtw.source",
+  "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6855.jpeg",
   "apps": [
     {
       "name": "Feather",
       "bundleIdentifier": "thewonderofyou.Feather",
       "developerName": "Samara",
+      "subtitle": "On-device signing application",
       "version": "2.9.0",
       "downloadURL": "https://github.com/sideloadtw/sideload-apps/releases/download/v2.9.0/Feather.ipa",
       "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6913.png",
       "localizedDescription": "免費且強大的 iOS 設備端證書簽名與側載工具。"
+    },
+    {
+      "name": "Glow for Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "developerName": "SideloadTW",
+      "version": "1.3.1",
+      "downloadURL": "https://github.com/sideloadtw/sideload-apps/releases/download/v1.3.1/Glow.for.Facebook.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6926.png",
+      "localizedDescription": "Facebook 增強版，提供進階功能與純淨使用體驗。"
+    },
+    {
+      "name": "RyukGram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "developerName": "SideloadTW",
+      "version": "1.4.0",
+      "downloadURL": "https://github.com/sideloadtw/sideload-apps/releases/download/v1.4.0/RyukGram_1.4.0_IG446.0.0.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6928.png",
+      "localizedDescription": "Instagram 增強版（基於 IG v446.0.0），支援去廣告與媒體下載。"
     }
   ]
 }
