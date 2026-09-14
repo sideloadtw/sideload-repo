@@ -1,0 +1,19 @@
+{
+  "name": "SideloadTW",
+  "identifier": "com.sideloadtw.source",
+  "apps": [
+    {
+      "name": "uYouEnhanced",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "arichorn",
+      "version": "19.08.2",
+      "versionDate": "2026-01-01",
+      "versionDescription": "支援無廣告播放、背景播放與下載功能。",
+      "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v19.08.2-3.0.3/uYouEnhanced_19.08.2_3.0.3.ipa",
+      "localizedDescription": "修改版 YouTube 客戶端。",
+      "iconURL": "https://raw.githubusercontent.com/arichorn/uYouEnhanced/main/Resources/icon.png",
+      "tintColor": "0088CC",
+      "size": 125000000
+    }
+  ]
+}
