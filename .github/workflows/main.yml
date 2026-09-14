@@ -3,7 +3,7 @@ name: Auto Sync Apps
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * *' # 每天 UTC 04:00 自動執行
 
 jobs:
   sync:
@@ -38,10 +38,14 @@ jobs:
                               app['version'] = f_app.get('version', app['version'])
                               app['downloadURL'] = f_app.get('downloadURL', app['downloadURL'])
                               app['size'] = f_app.get('size', app['size'])
+                              if 'versions' in app and len(app['versions']) > 0:
+                                  app['versions'][0]['version'] = app['version']
+                                  app['versions'][0]['downloadURL'] = app['downloadURL']
+                                  app['versions'][0]['size'] = app['size']
               except Exception as e:
                   print('Feather error:', e)
 
-              # 2. Facebook
+              # 2. Facebook (Glow)
               try:
                   fb_data = get_json('https://raw.githubusercontent.com/dvntm0/AltStore/main/feather.json')
                   fb_app = next((a for a in fb_data.get('apps', []) if a.get('bundleIdentifier') == 'com.facebook.Facebook'), None)
@@ -49,21 +53,34 @@ jobs:
                       for app in local_data.get('apps', []):
                           if app.get('bundleIdentifier') == 'com.facebook.Facebook':
                               app['version'] = fb_app.get('version', app['version'])
-                              app['downloadURL'] = fb_app.get('downloadURL', app['downloadURL'])
+                              # 官方若有 versions[0] 優先取其下載鏈接
+                              new_url = fb_app.get('downloadURL') or (fb_app.get('versions', [{}])[0].get('downloadURL') if fb_app.get('versions') else None)
+                              if new_url:
+                                  app['downloadURL'] = new_url
                               app['size'] = fb_app.get('size', app['size'])
+                              if 'versions' in app and len(app['versions']) > 0:
+                                  app['versions'][0]['version'] = app['version']
+                                  app['versions'][0]['downloadURL'] = app['downloadURL']
+                                  app['versions'][0]['size'] = app['size']
               except Exception as e:
                   print('FB error:', e)
 
-              # 3. Instagram
+              # 3. Instagram (RyukGram)
               try:
-                  ig_data = get_json('https://source.ryuksign.com/apps.json')
+                  ig_data = get_json('https://source.ryuksign.com/plugins.json')
                   ig_app = next((a for a in ig_data.get('apps', []) if a.get('bundleIdentifier') == 'com.burbn.instagram'), None)
                   if ig_app:
                       for app in local_data.get('apps', []):
                           if app.get('bundleIdentifier') == 'com.burbn.instagram':
                               app['version'] = ig_app.get('version', app['version'])
-                              app['downloadURL'] = ig_app.get('downloadURL', app['downloadURL'])
+                              new_url = ig_app.get('downloadURL') or (ig_app.get('versions', [{}])[0].get('downloadURL') if ig_app.get('versions') else None)
+                              if new_url:
+                                  app['downloadURL'] = new_url
                               app['size'] = ig_app.get('size', app['size'])
+                              if 'versions' in app and len(app['versions']) > 0:
+                                  app['versions'][0]['version'] = app['version']
+                                  app['versions'][0]['downloadURL'] = app['downloadURL']
+                                  app['versions'][0]['size'] = app['size']
               except Exception as e:
                   print('IG error:', e)
 
