@@ -336,10 +336,10 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "SideloadLabs",
       "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
-      "version": "9.1.76",
-      "versionDate": "2026-08-20",
+      "version": "9.1.88",
+      "versionDate": "2026-10-05",
       "size": 130000000,
-      "downloadURL": "https://files.catbox.moe/1qbbn8.ipa",
+      "downloadURL": "https://files.catbox.moe/x7l9ca.ipa",
       "iconURL": "https://files.catbox.moe/9fgova.JPG",
       "tintColor": "1DB954",
       "localizedDescription": "Spotify Version: v9.1.76, EeveeSpotify Version: 6.6.8(2) Unpatched Version, pls use this if on Altstore/Sidestore, free cert",
@@ -347,10 +347,10 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "9.1.76",
+          "version": "9.1.88",
           "date": "2026-08-20T00:00:00Z",
           "size": 130000000,
-          "downloadURL": "https://files.catbox.moe/1qbbn8.ipa",
+          "downloadURL": "https://files.catbox.moe/x7l9ca.ipa",
           "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
         }
       ]
@@ -360,10 +360,10 @@
       "bundleIdentifier": "com.spotify.client.patched",
       "developerName": "SideloadLabs",
       "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
-      "version": "9.1.76",
-      "versionDate": "2026-08-20",
+      "version": "9.1.88",
+      "versionDate": "2026-10-05",
       "size": 13000000,
-      "downloadURL": "https://files.catbox.moe/6c9ji8.ipa",
+      "downloadURL": "https://files.catbox.moe/ogibmn.ipa",
       "iconURL": "https://files.catbox.moe/9fgova.JPG",
       "tintColor": "1DB954",
       "localizedDescription": "Spotify Version: v9.1.76, EeveeSpotify Version: 6.6.8(2). Patched version, use this only if you're using paid cert, jailbroken, or trollstore",
@@ -371,10 +371,10 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "9.1.76",
+          "version": "9.1.88",
           "date": "2026-08-20T00:00:00Z",
           "size": 13000000,
-          "downloadURL": "https://files.catbox.moe/6c9ji8.ipa",
+          "downloadURL": "https://files.catbox.moe/ogibmn.ipa",
           "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
         }
       ]
