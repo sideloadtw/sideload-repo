@@ -39,10 +39,10 @@
       "category": "social",
       "developerName": "Ryuk",
       "subtitle": "Instagram, supercharged with RyukGram · by @axryuk · RyukGram v1.4.0",
-      "version": "449.0.0",
-      "versionDate": "2026-10-03T00:00:00Z",
-      "size": 339380711,
-      "downloadURL": "https://source.ryuksign.com/ipas/af1fa1f50214c41d8cf4.ipa",
+      "version": "452.0.1",
+      "versionDate": "2026-10-23T00:00:00Z",
+      "size": 355597879,
+      "downloadURL": "https://source.ryuksign.com/ipas/22ac767c9d09aed8795b.ipa",
       "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6928.png",
       "tintColor": "E1306C",
       "localizedDescription": "RyukGram is an enhanced Instagram client for iOS — the full Instagram app with a built-in suite of privacy, logging and customization tweaks. Highlights: follow-request tracking, read receipts, story-viewer insights, deleted-message logs, device-ID masking, media downloading, custom chat themes and a configurable tab bar. Everything runs on-device.",
@@ -67,10 +67,10 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "449.0.0",
+          "version": "452.0.1",
           "date": "2026-09-09T00:00:00Z",
-          "size": 339380711,
-          "downloadURL": "https://source.ryuksign.com/ipas/af1fa1f50214c41d8cf4.ipa",
+          "size": 355597879,
+          "downloadURL": "https://source.ryuksign.com/ipas/22ac767c9d09aed8795b.ipa",
           "localizedDescription": "Updated for Instagram 446.0.0."
         }
       ]
