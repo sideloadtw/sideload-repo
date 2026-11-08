@@ -1,0 +1,134 @@
+name: Auto Sync Apps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync Sources
+        run: |
+          python3 -c "
+          import json, urllib.request
+
+          def get_json(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  return json.loads(resp.read().decode())
+
+          def update_app_entry(local_app, remote_app):
+              local_app['version'] = remote_app.get('version', local_app['version'])
+              new_url = remote_app.get('downloadURL') or (remote_app.get('versions', [{}])[0].get('downloadURL') if remote_app.get('versions') else None)
+              if new_url:
+                  local_app['downloadURL'] = new_url
+              if 'size' in remote_app:
+                  local_app['size'] = remote_app['size']
+              if 'versionDate' in remote_app:
+                  local_app['versionDate'] = remote_app['versionDate']
+              if 'versions' in local_app and len(local_app['versions']) > 0:
+                  local_app['versions'][0]['version'] = local_app['version']
+                  local_app['versions'][0]['downloadURL'] = local_app['downloadURL']
+                  if 'size' in local_app:
+                      local_app['versions'][0]['size'] = local_app['size']
+
+          try:
+              with open('apps.json', 'r', encoding='utf-8') as f:
+                  local_data = json.load(f)
+
+              # 1. Feather
+              try:
+                  f_data = get_json('https://raw.githubusercontent.com/khcrysalis/Feather/refs/heads/main/app-repo.json')
+                  f_app = next((a for a in f_data.get('apps', []) if a.get('bundleIdentifier') == 'thewonderofyou.Feather'), None)
+                  if f_app:
+                      for a in local_data.get('apps', []):
+                          if a.get('bundleIdentifier') == 'thewonderofyou.Feather':
+                              update_app_entry(a, f_app)
+              except Exception as e:
+                  print('Feather sync error:', e)
+
+              # 2. Instagram (RyukGram)
+              try:
+                  ig_data = get_json('https://source.ryuksign.com/plugins.json')
+                  ig_app = next((a for a in ig_data.get('apps', []) if a.get('bundleIdentifier') == 'com.burbn.instagram'), None)
+                  if ig_app:
+                      for a in local_data.get('apps', []):
+                          if a.get('bundleIdentifier') == 'com.burbn.instagram':
+                              update_app_entry(a, ig_app)
+              except Exception as e:
+                  print('RyukGram sync error:', e)
+
+              # 3. Dan's Workshop (Facebook, Messenger, YouTube, YT Music)
+              try:
+                  dans_data = get_json('https://raw.githubusercontent.com/dvntm0/AltStore/main/feather.json')
+                  dans_apps = dans_data.get('apps', [])
+                  for a in local_data.get('apps', []):
+                      target_name = a.get('name')
+                      matched = next((da for da in dans_apps if da.get('name') == target_name), None)
+                      if matched:
+                          update_app_entry(a, matched)
+              except Exception as e:
+                  print('Dans Workshop sync error:', e)
+
+              # 4. SideloadLabs (EeveeSpotify 系列 4 款)
+              try:
+                  labs_data = get_json('https://raw.githubusercontent.com/SideloadLabs/SideloasLabs-AltSource/refs/heads/main/apps.json')
+                  labs_apps = labs_data.get('apps', [])
+                  for a in local_data.get('apps', []):
+                      bundle_id = a.get('bundleIdentifier')
+                      if bundle_id.startswith('com.spotify.client'):
+                          matched = next((la for la in labs_apps if la.get('bundleIdentifier') == bundle_id), None)
+                          if matched:
+                              update_app_entry(a, matched)
+              except Exception as e:
+                  print('SideloadLabs sync error:', e)
+
+              # 5. MiniWatts (upstream publishes its own apps.json at the latest release;
+              #    its version/size/date live in versions[0], not at the top level)
+              try:
+                  mw_data = get_json('https://github.com/ResistanceTo/MiniWatts/releases/latest/download/apps.json')
+                  mw_app = next((a for a in mw_data.get('apps', []) if a.get('bundleIdentifier') == 'org.zhaohe.MiniWatts'), None)
+                  if mw_app:
+                      mw_ver = (mw_app.get('versions') or [{}])[0]
+                      for a in local_data.get('apps', []):
+                          if a.get('bundleIdentifier') == 'org.zhaohe.MiniWatts':
+                              if mw_ver.get('version'):
+                                  a['version'] = mw_ver['version']
+                              if mw_ver.get('downloadURL'):
+                                  a['downloadURL'] = mw_ver['downloadURL']
+                              if 'size' in mw_ver:
+                                  a['size'] = mw_ver['size']
+                              if mw_ver.get('date'):
+                                  a['versionDate'] = mw_ver['date']
+                              if a.get('versions'):
+                                  a['versions'][0]['version'] = a['version']
+                                  a['versions'][0]['downloadURL'] = a['downloadURL']
+                                  a['versions'][0]['size'] = a['size']
+                                  a['versions'][0]['date'] = a['versionDate']
+                                  if mw_ver.get('minOSVersion'):
+                                      a['versions'][0]['minOSVersion'] = mw_ver['minOSVersion']
+                                  if mw_ver.get('buildVersion'):
+                                      a['versions'][0]['buildVersion'] = mw_ver['buildVersion']
+              except Exception as e:
+                  print('MiniWatts sync error:', e)
+
+              with open('apps.json', 'w', encoding='utf-8') as f:
+                  json.dump(local_data, f, indent=2, ensure_ascii=False)
+
+          except Exception as err:
+              print('Global sync execution error:', err)
+          "
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add apps.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m 'Auto-sync apps from sources' && git push)
