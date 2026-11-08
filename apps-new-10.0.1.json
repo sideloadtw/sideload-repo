@@ -1,0 +1,488 @@
+{
+  "name": "SideloadTW",
+  "identifier": "com.sideloadtw.source",
+  "subtitle": "精選 iOS 側載應用軟體源",
+  "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6855.jpeg",
+  "website": "https://github.com/sideloadtw/sideload-repo",
+  "apps": [
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Samara",
+      "subtitle": "On-device signing application",
+      "version": "2.9.0",
+      "versionDate": "2026-07-05T02:11:53Z",
+      "size": 12598584,
+      "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6913.png",
+      "tintColor": "848ef9",
+      "localizedDescription": "Feather is a free on-device iOS application manager/installer built with UIKit for quality.",
+      "appPermissions": {},
+      "screenshotURLs": [
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Library.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Repos.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Sign.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Store.png?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "2.9.0",
+          "date": "2026-07-05T02:11:53Z",
+          "size": 12598584,
+          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa"
+        }
+      ]
+    },
+    {
+      "name": "RyukGram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "category": "social",
+      "developerName": "Ryuk",
+      "subtitle": "Instagram, supercharged with RyukGram · by @axryuk · RyukGram v1.4.0",
+      "version": "453.0.0",
+      "versionDate": "2026-10-29T00:00:00Z",
+      "size": 361338517,
+      "downloadURL": "https://source.ryuksign.com/ipas/3288e9a370947dc46d8c.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6928.png",
+      "tintColor": "E1306C",
+      "localizedDescription": "RyukGram is an enhanced Instagram client for iOS — the full Instagram app with a built-in suite of privacy, logging and customization tweaks. Highlights: follow-request tracking, read receipts, story-viewer insights, deleted-message logs, device-ID masking, media downloading, custom chat themes and a configurable tab bar. Everything runs on-device.",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
+          "NSMicrophoneUsageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
+          "NSPhotoLibraryUsageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+          "NSContactsUsageDescription": "Instagram will use your contacts to suggest people and things you care about, and offer a better service.",
+          "NSLocationWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Instagram.",
+          "NSCalendarsUsageDescription": "This will let Instagram sync events to your calendar.",
+          "NSBluetoothAlwaysUsageDescription": "This allows your phone to find and connect to devices using a Bluetooth connection.",
+          "NSLocalNetworkUsageDescription": "Used to discover and connect to compatible streaming devices on your Wi-Fi network.",
+          "NSFocusStatusUsageDescription": "This allows Instagram to check whether you've been missing notifications from friends.",
+          "NSUserTrackingUsageDescription": "This helps Instagram personalize ads we show you."
+        }
+      },
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "453.0.0",
+          "date": "2026-09-09T00:00:00Z",
+          "size": 361338517,
+          "downloadURL": "https://source.ryuksign.com/ipas/3288e9a370947dc46d8c.ipa",
+          "localizedDescription": "Updated for Instagram 446.0.0."
+        }
+      ]
+    },
+    {
+      "name": "Glow for Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "developerName": "dvntm",
+      "subtitle": "Cleaner. Smarter. Yours.",
+      "version": "519.0.0",
+      "versionDate": "2025-06-25T18:00:00+03:00",
+      "size": 170243561,
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3.1+519.0.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/IMG_6926.png",
+      "tintColor": "B5DAFC",
+      "localizedDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot6.jpg"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.accounts.facebook.defaultaccess",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.HotspotConfiguration",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSSiriUsageDescription": "This will let Siri help you look for photos on Facebook",
+          "NSCameraUsageDescription": "Facebook uses access to your camera to do things like help you take and share photos, record videos, and use visual effects.\n\nYou can always change this in your device settings.",
+          "NSUserTrackingUsageDescription": "This allows Facebook to provide you with a better ads experience.",
+          "NSBluetoothPeripheralUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSLocalNetworkUsageDescription": "Facebook uses your local network so you can do things like find and connect to devices and cast videos to TV.",
+          "NSMotionUsageDescription": "Facebook uses this to provide more relevant and personalized experiences.",
+          "NSPhotoLibraryAddUsageDescription": "Facebook uses access to your photos to do things like help you save images to your device, share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
+          "NSAppleMusicUsageDescription": "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
+          "NSCalendarsUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSMicrophoneUsageDescription": "Facebook uses access to your microphone to do things like help you record audio, identify songs, search with your voice and use audio effects.\n\nYou can always change this in your device settings.",
+          "NSLocationWhenInUseUsageDescription": "Facebook uses this to provide more relevant and personalized experiences, like helping you check-in, find local events and get better ads.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Facebook.",
+          "NSCalendarsFullAccessUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+          "NSPhotoLibraryUsageDescription": "Facebook uses access to your photos to do things like help you share and apply visual effects to your photos and videos, and to suggest photos and videos to share."
+        }
+      },
+      "versions": [
+        {
+          "version": "519.0.0",
+          "minOSVersion": "15.1",
+          "date": "2025-06-25T18:00:00+03:00",
+          "size": 170243561,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3.1+519.0.ipa",
+          "localizedDescription": "Glow v1.3.1\n- Faster video re-encoding by improved audio processing\n- Added support for Turkish language"
+        }
+      ]
+    },
+    {
+      "name": "Flow for Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "developerName": "dvntm",
+      "subtitle": "A lightweight Messenger enhancer",
+      "version": "511.0.0",
+      "versionDate": "2025-06-14T18:15:00+03:00",
+      "size": 73615608,
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
+      "tintColor": "AF38EB",
+      "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n- Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n- Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot3.jpg"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
+          "NSLocationAlwaysUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+          "NSSiriUsageDescription": "This lets you use Siri to do things like make calls and read messages.",
+          "NSCameraUsageDescription": "Messenger uses your device’s camera so you can do things like take photos, record and stream videos, make video calls, and create and use filters and effects.",
+          "NSBluetoothPeripheralUsageDescription": "This makes some features work with bluetooth accessories.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you do things like save to your camera roll and enables other features for photos and videos.",
+          "NSAppleMusicUsageDescription": "This lets you play Apple Music tracks, add tracks to your music library, and more.",
+          "NSSpeechRecognitionUsageDescription": "Messenger will use speech recognition to generate captions as people speak.",
+          "NSLocationUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+          "NSCalendarsUsageDescription": "This will let Messenger sync events you're hosting or attending to your calendar.",
+          "NSMicrophoneUsageDescription": "Messenger uses your device’s microphone so you can do things like record video with sound, make voice and video calls, and create voice messages.",
+          "NSLocationWhenInUseUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This will let Messenger sync events you're hosting or attending to your calendar.",
+          "NSFaceIDUsageDescription": "Messenger uses Face ID to unlock the app.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+          "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+          "NSPhotoLibraryUsageDescription": "Messenger uses your device’s photo library from your camera roll so you can do things like share photos and videos."
+        }
+      },
+      "versions": [
+        {
+          "version": "511.0.0",
+          "minOSVersion": "15.1",
+          "date": "2025-06-14T18:15:00+03:00",
+          "size": 73615608,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+          "localizedDescription": "- Initial release"
+        }
+      ]
+    },
+    {
+      "name": "YouTube Plus (iOS16+)",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "dvntm",
+      "subtitle": "YouTube Plus with additional tweaks",
+      "version": "21.32.4",
+      "versionDate": "2026-07-17T07:00:00+03:00",
+      "size": 138878175,
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_6.0+21.32.4.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "tintColor": "E36678",
+      "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
+        }
+      },
+      "versions": [
+        {
+          "version": "21.32.4",
+          "minOSVersion": "16.0",
+          "date": "2026-07-17T07:00:00+03:00",
+          "size": 138878175,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_6.0+21.32.4.ipa",
+          "localizedDescription": "YouTube Plus v5.2.2"
+        }
+      ]
+    },
+    {
+      "name": "YouTube Music Ultimate (iOS16+)",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "developerName": "dvntm",
+      "subtitle": "The best enhancer for YouTube Music on iOS",
+      "version": "9.11.2",
+      "versionDate": "2026-03-19T10:30:00+03:00",
+      "size": 93340497,
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_9.11.2.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "tintColor": "FF0033",
+      "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.mediasetup",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+          "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+          "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
+          "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+          "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+        }
+      },
+      "versions": [
+        {
+          "version": "9.11.2",
+          "minOSVersion": "16.0",
+          "date": "2026-03-19T10:30:00+03:00",
+          "size": 93340497,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_9.11.2.ipa",
+          "localizedDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon"
+        }
+      ]
+    },
+    {
+      "name": "EeveeSpotifyReincarnated",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "SideloadLabs",
+      "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
+      "version": "9.1.88",
+      "versionDate": "2026-10-05",
+      "size": 130000000,
+      "downloadURL": "https://files.catbox.moe/x7l9ca.ipa",
+      "iconURL": "https://files.catbox.moe/9fgova.JPG",
+      "tintColor": "1DB954",
+      "localizedDescription": "Spotify Version: v9.1.76, EeveeSpotify Version: 6.6.8(2) Unpatched Version, pls use this if on Altstore/Sidestore, free cert",
+      "appPermissions": {},
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "9.1.88",
+          "date": "2026-08-20T00:00:00Z",
+          "size": 130000000,
+          "downloadURL": "https://files.catbox.moe/x7l9ca.ipa",
+          "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
+        }
+      ]
+    },
+    {
+      "name": "EeveeSpotifyReincarnated(PATCHED)",
+      "bundleIdentifier": "com.spotify.client.patched",
+      "developerName": "SideloadLabs",
+      "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
+      "version": "9.1.88",
+      "versionDate": "2026-10-05",
+      "size": 13000000,
+      "downloadURL": "https://files.catbox.moe/ogibmn.ipa",
+      "iconURL": "https://files.catbox.moe/9fgova.JPG",
+      "tintColor": "1DB954",
+      "localizedDescription": "Spotify Version: v9.1.76, EeveeSpotify Version: 6.6.8(2). Patched version, use this only if you're using paid cert, jailbroken, or trollstore",
+      "appPermissions": {},
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "9.1.88",
+          "date": "2026-08-20T00:00:00Z",
+          "size": 13000000,
+          "downloadURL": "https://files.catbox.moe/ogibmn.ipa",
+          "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
+        }
+      ]
+    },
+    {
+      "name": "ESR Liquid Glass",
+      "bundleIdentifier": "com.spotify.client.lg",
+      "developerName": "SideloadLabs",
+      "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
+      "version": "9.1.76",
+      "versionDate": "2026-08-20",
+      "size": 13000000,
+      "downloadURL": "https://files.catbox.moe/bqxqbx.ipa",
+      "iconURL": "https://files.catbox.moe/9fgova.JPG",
+      "tintColor": "1DB954",
+      "localizedDescription": "Spotify Version: v9.1.76, EeveeSpotify Version: 6.6.8(2). Unpatched Liquid Glass version, use this only if you're using paid cert, jailbroken, or trollstore",
+      "appPermissions": {},
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "9.1.76",
+          "date": "2026-08-20T00:00:00Z",
+          "size": 13000000,
+          "downloadURL": "https://files.catbox.moe/bqxqbx.ipa",
+          "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
+        }
+      ]
+    },
+    {
+      "name": "ESR Liquid Glass Patched",
+      "bundleIdentifier": "com.spotify.client.lg.patch",
+      "developerName": "SideloadLabs",
+      "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
+      "version": "9.1.76",
+      "versionDate": "2026-08-20",
+      "size": 13000000,
+      "downloadURL": "https://files.catbox.moe/ey63w2.ipa",
+      "iconURL": "https://files.catbox.moe/9fgova.JPG",
+      "tintColor": "1DB954",
+      "localizedDescription": "Spotify Version: v9.1.76, EeveeSpotify Version: 6.6.8(2). Patched Liquid Glass version, use this only if you're using paid cert, jailbroken, or trollstore",
+      "appPermissions": {},
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "9.1.76",
+          "date": "2026-08-20T00:00:00Z",
+          "size": 13000000,
+          "downloadURL": "https://files.catbox.moe/ey63w2.ipa",
+          "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
+        }
+      ]
+    },
+    {
+      "name": "AUD⇄TWD",
+      "bundleIdentifier": "com.sideloadtw.audtwdpro",
+      "developerName": "SideloadTW",
+      "subtitle": "澳幣轉台幣 · 跨國匯率與真實手續費損耗一頁式即時精算",
+      "version": "10.0.1",
+      "versionDate": "2026-11-08T09:13:00Z",
+      "size": "67003",
+      "downloadURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/SideloadTW-AUD-TWD-Pro.ipa",
+      "iconURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/AUD-TWD-icon.png",
+      "tintColor": "D4AF6A",
+      "localizedDescription": "輸入想換回台灣的澳幣金額，App 會自動在背景串接各大官方即時 API，把匯差、各階段手續費、鏈上轉帳費和台幣出金費全部算進去，一頁直接告訴你當下哪個管道實拿最多台幣。支援 ING 台灣 ATM 提領、CoinSpot 轉 MAX（USDT 加密貨幣路線）、Wise 與 CommBank 傳統電匯對比。",
+      "appPermissions": {},
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "10.0.1",
+          "date": "2026-11-08T09:13:00Z",
+          "size": "67003",
+          "downloadURL": "https://raw.githubusercontent.com/sideloadtw/sideload-repo/main/SideloadTW-AUD-TWD-Pro.ipa"
+        }
+      ]
+    },
+    {
+      "name": "MiniWatts",
+      "bundleIdentifier": "org.zhaohe.MiniWatts",
+      "developerName": "ResistanceTo",
+      "subtitle": "Live charge power, battery and thermal sensors.",
+      "version": "1.7.0",
+      "versionDate": "2026-11-07T08:08:27Z",
+      "size": 3374224,
+      "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.7.0/MiniWatts-unsigned.ipa",
+      "iconURL": "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/icon.png",
+      "tintColor": "0086B3",
+      "localizedDescription": "MiniWatts reads the iPhone's own power management sensors and shows what is actually flowing: charger input in watts, what reaches the battery, rail voltages and currents, every temperature sensor placed on a map of the phone, the USB-PD profiles the charger offers, and a history of each charge.\n\nIt reads private system frameworks, so it is sideload-only and can never be on the App Store. It was built and verified on an iPhone Air; sensor names and scaling differ between models, so some readings may be wrong on yours.\n\nIncludes a Home Screen and Lock Screen widget, a charging Live Activity and a floating Picture in Picture meter. The widget and the Live Activity live in an app extension: signing it takes one more App ID, and LiveContainer cannot run extensions, so installed there MiniWatts has neither.\n\nFree and open source: https://github.com/ResistanceTo/MiniWatts",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/power.jpg",
+        "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/thermal.jpg",
+        "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/adapter.jpg",
+        "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/history.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.7.0",
+          "buildVersion": "22",
+          "date": "2026-11-07T08:08:27Z",
+          "minOSVersion": "17.0",
+          "size": 3374224,
+          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.7.0/MiniWatts-unsigned.ipa",
+          "localizedDescription": "Release notes: https://github.com/ResistanceTo/MiniWatts/releases/tag/v1.7.0"
+        }
+      ]
+    }
+  ]
+}
