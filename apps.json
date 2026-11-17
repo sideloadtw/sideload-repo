@@ -338,7 +338,7 @@
       "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
       "version": "9.2.0",
       "versionDate": "2026-11-15",
-      "size": 130000000,
+      "size": 160000000,
       "downloadURL": "https://files.catbox.moe/79bhql.ipa",
       "iconURL": "https://files.catbox.moe/9fgova.JPG",
       "tintColor": "1DB954",
@@ -349,7 +349,7 @@
         {
           "version": "9.2.0",
           "date": "2026-08-20T00:00:00Z",
-          "size": 130000000,
+          "size": 160000000,
           "downloadURL": "https://files.catbox.moe/79bhql.ipa",
           "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
         }
@@ -362,7 +362,7 @@
       "subtitle": "This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.",
       "version": "9.1.88",
       "versionDate": "2026-11-15",
-      "size": 13000000,
+      "size": 16000000,
       "downloadURL": "https://files.catbox.moe/4jhcb9.ipa",
       "iconURL": "https://files.catbox.moe/9fgova.JPG",
       "tintColor": "1DB954",
@@ -373,7 +373,7 @@
         {
           "version": "9.1.88",
           "date": "2026-08-20T00:00:00Z",
-          "size": 13000000,
+          "size": 16000000,
           "downloadURL": "https://files.catbox.moe/4jhcb9.ipa",
           "localizedDescription": "Updated to Spotify v9.1.76, Full release notes on github"
         }
